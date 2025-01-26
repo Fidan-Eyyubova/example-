@@ -1,10 +1,14 @@
-import Product from './component/Product'
+import Admin from "./component/blog/Admin"
+import Blog from "./component/blog/Blog"
+import Product from "./component/product/Product"
 
 function App() {
 
   return (
     <>
-     <Product />
+    {/* <Product /> */}
+    {/* <Blog /> */}
+    <Admin />
     </>
   )
 }
