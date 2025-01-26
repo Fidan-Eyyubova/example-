@@ -1,14 +1,15 @@
+import { Route, Routes } from "react-router-dom"
 import Admin from "./component/blog/Admin"
 import Blog from "./component/blog/Blog"
-import Product from "./component/product/Product"
 
 function App() {
 
   return (
     <>
-    {/* <Product /> */}
-    {/* <Blog /> */}
-    <Admin />
+    <Routes>
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/" element={<Admin />} />
+    </Routes>
     </>
   )
 }
