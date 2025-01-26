@@ -1,0 +1,15 @@
+.products{
+    .container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3em;
+     .wrapper{
+        width: 250px;
+     }
+   img{
+    width: 100px;
+    height: 100px;
+   }
+ }
+}
